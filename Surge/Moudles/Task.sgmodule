@@ -1,4 +1,4 @@
-#!name=2. Task - All in one By rainman
+#!name=2. Task - All in one By yxw91023
 #!desc=该模块为签到脚本合集。
 #!system=ios
 
@@ -252,31 +252,14 @@ tongc_info.js = type=cron,cronexp=50 10 0 * * *,script-path=https://raw.githubus
 
 
 # 任务脚本
-# > 1.App价格版本监控
-# > 需要填appid
-# App价格版本监控 = type=cron,cronexp=0 0 * * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Neurogram-R/AppMonitor.js,script-update-interval=0
-# > 2.英雄联盟排名 (By @syzzzf)
-# 英雄联盟排名 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/lol.js,script-update-interval=0
-# > 3.TestFlight公测监控 (By @syzzzf)
-# 需要自己填appkey
-# TestFlight公测监控 = script-path=https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js,script-update-interval=0,type=cron,cronexp=0 0 * * * *
-# > 4.一言
+# >1.一言
 一言 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Meeta/Surge/Scripting/Calendar.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
-# > 5.每日一句+蚂蚁森林收能量
+# > 2.每日一句+蚂蚁森林收能量
 每日一句+蚂蚁森林收能量 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/yichahucha/cron_daily.js,script-update-interval=0,type=cron,cronexp=0 30 7 * * *
-# > 6.倒数日
+# > 3.倒数日
 # > 需要自己修改节日
 倒数日 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/daysmatter.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
-# > 7.世界时间
+# > 4.世界时间
 世界时间 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/time.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
-# > 8.疫情查看 (By @Dachaw)
-# > 需要自己改城市
-# 疫情查看 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/nCoV.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
-# > 8.疫情辟谣 (By @Dachaw)
-# 疫情辟谣 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/nCoVrumors.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
-# > 9.电视节目预告 (By @Macsuny)
-# > var c = “cctv1”
-# > 常用卫视代码北京: btv1 | 湖南: hunan | 浙江: zhejiang|河南: henan| 江苏: jiangsu|广东: guangdong
-# 电视节目预告 = type=cron,cronexp=0 0 8 * * *,script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/tvpreview.js,script-update-interval=0
-# > 10.天气预报
+# > 5.天气预报
 weather_pro.js = script-path=Scripts/weather_pro.js,script-update-interval=0,type=cron,cronexp=0 8-20/4 * * *
