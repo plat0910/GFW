@@ -136,17 +136,13 @@ WPS签到 = type=cron,cronexp=20 8 0 * * *,script-path=https://raw.githubusercon
 # > 41.电视家
 # APP登陆账号后，点击底部’赚赚‘进入签到页面,即可获取Cookie.
 电视家签到 = type=cron,cronexp=10 11 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/dianshijia.js,script-update-interval=0
-# > 42.喜马拉雅极速版 (By @Macsuny)
-# APP登陆账号后，点击右下角’福利’选项,即可获取Cookie.
-# 每隔一小时开启一次，每天最多5次，金币账户与标准版不同账户
-# 喜马拉雅极速版签到 = type=cron,cronexp=50 11 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/xmspeed.js,script-update-interval=0
-# > 43.腾讯新闻 (By 红鲤鱼与绿鲤鱼与驴)
+# > 42.腾讯新闻 (By 红鲤鱼与绿鲤鱼与驴)
 # 打开腾讯新闻app，阅读一篇文章，右下角出现红包，倒计时结束后即可
 腾讯新闻签到 = type=cron,cronexp=35 0 0 * * *,script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/txnews.js,script-update-interval=0
-# > 44.智行火车
+# > 43.智行火车
 # > 打开 APP 手动签到一次: 访问下右下角 `个人中心` > `签到`
 智行火车签到 = type=cron,cronexp=0 13 0 * * *,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/zxhc/zxhc.js,script-update-interval=0
-# > 45.微博 & 微博钱包 (By @Macsuny)
+# > 44.微博 & 微博钱包 (By @Macsuny)
 # 1.打开微博App获取Cookie.获取后请注释或禁用Cookie
 # 2.打开微博钱包点击签到，获取Cookie，
 # 3.钱包已经签到无法获取
@@ -162,5 +158,4 @@ WPS签到 = type=cron,cronexp=20 8 0 * * *,script-path=https://raw.githubusercon
 倒数日 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/daysmatter.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
 # > 4.世界时间
 世界时间 = script-path=https://raw.githubusercontent.com/nzw9314/QuantumultX/master/Task/time.js,script-update-interval=0,type=cron,cronexp=0 0 8 * * *
-# > 5.天气预报
-weather_pro.js = script-path=Scripts/weather_pro.js,script-update-interval=0,type=cron,cronexp=0 8-20/4 * * *
+
